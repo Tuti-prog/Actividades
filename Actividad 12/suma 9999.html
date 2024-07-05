@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <body>
+        <script>
+            
+            var x,TL
+            x = 0
+            TL = 0
+           do{
+            
+            TL=parseInt(prompt("Pon numeros para sumarlos (para cerrar el programa pon 9999)"))
+            
+                if (TL != 9999) {
+                    x = x+TL
+                }
+           
+            
+           }while (TL===9999) 
+
+            document.write(x)
+            document.write("<br>")
+
+           if (x<0) {
+            document.write("Tu numero sumando es menor a 0")
+           } else {
+            if (x>0) {
+                document.write("Tu numero es mayor a 0")
+            } else {
+                if (x=0) {
+                    document.write("Tu numero es 0")
+                }
+            }
+           }
+
+
+        </script>
+    </body>  
+</html>
